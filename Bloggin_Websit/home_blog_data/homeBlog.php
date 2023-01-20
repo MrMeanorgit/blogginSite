@@ -3,4 +3,7 @@
  //creating posts for hom
   $array1 = array();
   $posts =  returnData($array1);
+  function retunrPerticularData($ID){
+    return retunrDataOfPerticularId($ID)
+  }
 ?>

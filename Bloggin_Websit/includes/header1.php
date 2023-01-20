@@ -24,7 +24,7 @@
             </div>
             <div class="tabs">
                 <h2 class="floatLeft"><a href="../main.php" target="_blank" >Home</a></h2>
-                <h2 class="floatMiddle"><a href="https://htmlcheatsheet.com/" target="_blank">Blogs</a></h2>
+                <h2 class="floatMiddle"><a href="/includes/blogs_page.php" target="_blank">Blogs</a></h2>
                 <h2 class="floatRight"><a href="/includes/about.php" target="_blank" >About Me</a></h2>
             </div>
         </div> 

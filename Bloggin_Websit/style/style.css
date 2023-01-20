@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 html{
+    font-family: 'choplin-semibold', sans-serif;
     height: 100%;
     background-color: #fff8ee;
 }
@@ -40,7 +43,7 @@ div{
 }
 
 .child1 h1{
-    color: #ff914d;
+    color: #D95D39;
     height: 100%;
     display: inline;
     vertical-align: middle;
@@ -94,12 +97,11 @@ div{
 
 /* Text before the recent blogs*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
 
 .recent{
     height: 100px;
     padding: 3px;
-    font-family: 'choplin-semibold', sans-serif;;
+    font-family: 'choplin-semibold', sans-serif;
     position: relative;
     text-align: center;
 }
@@ -116,6 +118,7 @@ div{
 }
 
 .recentBlog{
+    display: block;
     transition: box-shadow .3s;
     background-color: #ffffff;
     position: relative;
@@ -123,6 +126,11 @@ div{
     margin: 1em;
     border-radius: 10px;
     border: 1px solid #ccc;
+}
+
+.recentBlog{
+    text-decoration: none;
+    color: black;
 }
 
 /* .recentBlog::before{

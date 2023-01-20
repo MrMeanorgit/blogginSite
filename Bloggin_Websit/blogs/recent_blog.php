@@ -2,7 +2,7 @@
 
 
 <?php foreach($posts as $post) {?>
-<div class="recentBlog">
+<a href='blog.php?id=<?php echo $post['post-id'] ?>' target="_blank" class="recentBlog">
 <div class="blogInHomePage">
     <div class="blogImage">
          <img src= <?php echo $post['post-image'];?> alt="React">          
@@ -12,5 +12,5 @@
     </div>               
 </div>
     <div class="tag"><div class="textAlign"><span><?php echo $post['post-tag']?></span></div></div>
-</div>
+</a>
 <?php } ?>
