@@ -1,6 +1,4 @@
 <?php include( $_SERVER["DOCUMENT_ROOT"].'/home_blog_data/homeBlog.php'); ?>
-
-
 <?php foreach($posts as $post) {?>
 <a href='blog.php?id=<?php echo $post['post-id'] ?>' target="_blank" class="recentBlog">
 <div class="blogInHomePage">

@@ -14,10 +14,14 @@ const something = document.querySelector('a')
         homeURL[0].style.backgroundColor = '#ffffff'
         blogURL[0].style.backgroundColor = '#D95D39'
         aboutURL[0].style.backgroundColor = '#ffffff'
-    }else{
+    }else if(pagename=='About Me'){
             homeURL[0].style.backgroundColor = '#ffffff'
             blogURL[0].style.backgroundColor = '#ffffff'
-            aboutURL[0].style.backgroundColor = '#D95D39'
-            
+            aboutURL[0].style.backgroundColor = '#D95D39'  
+    } else {
+        homeURL[0].style.backgroundColor = '#ffffff'
+        blogURL[0].style.backgroundColor = '#ffffff'
+        aboutURL[0].style.backgroundColor = '#ffffff' 
     }
+
     

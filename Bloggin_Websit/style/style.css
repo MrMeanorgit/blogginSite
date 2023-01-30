@@ -301,3 +301,10 @@ div{
 a{
     text-decoration-line: none;
 }
+
+#ribbon{
+    float: left;
+    width: 50%;
+}
+
+

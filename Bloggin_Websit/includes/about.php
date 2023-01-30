@@ -1,4 +1,10 @@
 <?php include('./header1.php'); ?>
+<div class="recent">
+                <span>
+                   About Me
+        
+                <span>
+            </div>
 <div class="my_details">
             <div class="row">
                 <img src="../source/evan-you.png" alt="Me">
